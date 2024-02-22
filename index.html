@@ -13,52 +13,77 @@
   </head>
   <body>
     <header class="landing-header">
-  <div class="header-navbar">
-    <nav class="landing-navbar">
-      <a href="#" class="landing-header-logo">
-        <img src="./assets/images/logo.png" alt="Wealthmeup" />
-      </a>
-      <div class="select-site-language">
-        <button class="site-language-button">
-          <span id="site-language">Select Language</span>
-          <img
-            src="./assets/svg/site-language-select-dropdown.svg"
-            alt="Select Language Dropdown"
-            class="site-language-select-dropdown"
-          />
-        </button>
-        <div class="hover-site-language">
-          <ul class="site-language-unordered-list">
-            <li class="site-language-list-single">
-              <a href="#" class="country-name-flag-language" onclick="setIndexSiteLanguage('assets/JSON/landing-german.json','german')">
-                <img src="./assets/svg/country-flags/de-flag.svg" alt="German Flag" class="country-flag-language-selection" />
-                German
-              </a>
-            </li>
-            <li class="site-language-list-single">
-              <a href="#" class="country-name-flag-language" onclick="setIndexSiteLanguage('assets/JSON/landing-hindi.json','hindi')">
-                <img src="./assets/images/india.png" alt="Indian Flag" class="country-flag-language-selection" />
-                Hindi
-              </a>
-            </li>
-            <li class="site-language-list-single">
-              <a href="#" class="country-name-flag-language" onclick="setIndexSiteLanguage('assets/JSON/landing-english.json','english')">
-                <img src="./assets/images/english.png" alt="English Flag" class="country-flag-language-selection" />
-                English
-              </a>
-            </li>
-            <li class="site-language-list-single">
-              <a href="#" class="country-name-flag-language" onclick="setIndexSiteLanguage('assets/JSON/landing-malayalam.json','malayalam')">
-                <img src="./assets/images/india.png" alt="Indian Flag" class="country-flag-language-selection" />
-                Malayalam
-              </a>
-            </li>
-          </ul>
-        </div>
+      <!-- //navbar in landing page -->
+      <div class="header-navbar">
+        <nav class="landing-navbar">
+          <a>
+            <img
+              alt="Wealthmeup"
+              class="landing-header-logo"
+              src="./assets/images/logo.png"
+            />
+          </a>
+          </div>
+          <div class="select-site-language">
+            <button class="site-language-button">
+              <span id="site-language"> </span>
+              <img
+                alt=" "
+                class="site-language-select-dropdown"
+                src="./assets/svg/site-language-select-dropdown.svg"
+              />
+            </button>
+            <div class="hover-site-language">
+              <ul class="site-language-unordered-list">
+                <li class="site-language-list-single">
+                  <a
+                    class="country-name-flag-language"
+                    onclick="setIndexSiteLanguage('assets/JSON/landing-german.json','german')"
+                    ><img
+                      class="country-flag-language-selection"
+                      src="./assets/svg/country-flags/de-flag.svg"
+                    />
+                    German</a
+                  >
+                </li>
+                <li class="site-language-list-single">
+                  <a
+                    class="country-name-flag-language"
+                    onclick="setIndexSiteLanguage('assets/JSON/landing-hindi.json','hindi')"
+                    ><img
+                      class="country-flag-language-selection"
+                      src="./assets/images/india.png"
+                    />
+                    Hindi</a
+                  >
+                </li>
+                <li class="site-language-list-single">
+                  <a
+                    class="country-name-flag-language"
+                    onclick="setIndexSiteLanguage('assets/JSON/landing-english.json','english')"
+                    ><img
+                      class="country-flag-language-selection"
+                      src="./assets/images/english.png"
+                    />
+                    English</a
+                  >
+                </li>
+                <li class="site-language-list-single">
+                  <a
+                    class="country-name-flag-language"
+                    onclick="setIndexSiteLanguage('assets/JSON/landing-malayalam.json','malayalam')"
+                    ><img
+                      class="country-flag-language-selection"
+                      src="./assets/images/india.png"
+                    />
+                    Malayalam</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
-  </div>
-</header>
 
       <!-- content below navbar -->
       <div class="header-logging">
